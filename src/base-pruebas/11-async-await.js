@@ -3,7 +3,7 @@ export const getImagen = async() => {
 
     try {
 
-        const apiKey = 'K2L4up4C660XlTdPKJYmI2lDNpR482HP';
+        const apiKey = 'ED3y6c1IJ2NzgAmjgJXPazUFp8hZjrPI';
         const resp   = await fetch(`http://api.giphy.com/v1/gifs/random?api_key=${ apiKey }`);
         const { data } = await resp.json(); 
 
@@ -22,5 +22,6 @@ export const getImagen = async() => {
 }
 
 
-
+// nano ~/.profile
+// sudo nano /etc/environment
 
